@@ -1,0 +1,17 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "DEBUG=* node app.js",
+    "test": "jest ./src"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
+}
